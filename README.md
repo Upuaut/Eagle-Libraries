@@ -1,4 +1,0 @@
-Eagle-Libraries
-===============
-
-Eagle-Libraries

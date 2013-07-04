@@ -1,20 +1,62 @@
 Eagle Libraries and Boards for AVA HAB Project
 
-Author : Anthony Stirk http://ava.upuaut.net
+Author 	 : Anthony Stirk http://ava.upuaut.net
+
+Tested 	 : Manufacturered and utilised on designs sucessfully
+Untested : Should be ok in theory but use at your own risk.
 
 ava.lbr Contains :
 
-NTX2 Horizontal and Vertical Mounting
-uBLOX NEO-6 GPS
-uBLOX MAX-6 GPS
-Sarantel SL1202 Passive Antenna
-ADF7012 
-DS18B20 TO92
-DS18B20 SOIC
-Antenova GPS Module ( Part M10382 )
-ATMega 328P-AU
-JTI Chipscale Antenna
-LM2939 Regulator
-MOSFET (SOT223)
-Panasonic ELLVGG Inductor
-
+Abracon ABM3						- Tested
+Texas ADF7012						- Untested
+Antenova GPS Module ( Part M10382 ) - Untested
+ATMega328P-AU						- Tested
+ATMega328P-MU						- Untested
+BSS138								- Tested
+Through hole SMA					- Tested
+Coilcraft MSS5131					- Untested
+MCP4706 DAC							- Untested
+DS18B20 TO92/µSOP8/SOIC				- Tested
+Panasonic ELLVGG Inductor			- Tested
+EPCOS SAW Filter					- Tested
+Epson FA-20H Crystal				- Untested
+Golledge SAW Filter					- Tested
+JTI Antenna 1575AT43A40				- Tested
+Keystone-82 AAA Through Hole		- Tested
+Keystone-92 AA Through Hole			- Tested
+LM2623AMM							- Untested
+LM2937IMP-5.0						- Untested
+LM3480IM3-3.3						- Tested
+LM26400YSD							- Untested
+LP2985IM5-2.8						- Untested
+LTC2606								- Untested
+LTC3105								- Untested
+LTC3526								- Tested
+M02-JST-PTH							- Tested
+M02 No Silk							- Tested
+M03-JST-PTH							- Tested
+M04-JST-PTH							- Tested
+MCP3002								- Untested
+MCP3008								- Untested
+Radiometrix NTX2					- Tested
+Radiometrix NTX2 Vertical			- Tested
+PMF780SN							- Untested
+PSA4-5043+							- Tested
+Radiometrix HX1						- Tested
+Radiometrix LMT2					- Tested
+Sarantel SL1204						- Tested - PCB Dimension slightly off
+Sarantel SL1206						- Tested
+Sarantel SL1252R					- Tested
+Sarantel SR1202						- Tested
+SI4330								- Untested
+SI446X								- Untested
+TAOGlas GP.1575.18.2.A.02			- Untested
+TE Connectivity 1-770966-0			- Untested
+TLV431								- Untested
+TPS76633D							- Tested
+TS53YL Trimmer 						- Tested
+TXS0102DCTT							- Tested
+TYCO Pot							- Tested
+Ublox MAX6 / MAX7					- Tested
+Ublox NEO6							- Tested
+UPG2179TB							- Untested
