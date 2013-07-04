@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -79,12 +79,20 @@
 <layer number="105" name="tPlate" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="106" name="bPlate" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="107" name="Crop" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="108" name="fp8" color="7" fill="1" visible="no" active="yes"/>
+<layer number="109" name="fp9" color="7" fill="1" visible="no" active="yes"/>
+<layer number="110" name="fp0" color="7" fill="1" visible="no" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="yes"/>
+<layer number="124" name="bTestmark" color="7" fill="1" visible="no" active="yes"/>
 <layer number="125" name="_tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="yes"/>
+<layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="yes"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="200" name="200bmp" color="1" fill="10" visible="no" active="no"/>
 <layer number="201" name="201bmp" color="2" fill="1" visible="no" active="no"/>
 <layer number="202" name="202bmp" color="3" fill="1" visible="no" active="no"/>
@@ -2153,6 +2161,39 @@ Frequency: 1575 MHz</description>
 <text x="-1.905" y="1.905" size="1.27" layer="25">&gt;NAME</text>
 <text x="-1.905" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
 </package>
+<package name="UBLOX_LEA-6T">
+<smd name="15" x="-8.4" y="8.35" dx="1.8" dy="0.8" layer="1"/>
+<wire x1="8.5" y1="11.2" x2="-8.5" y2="11.2" width="0.127" layer="21"/>
+<wire x1="8.5" y1="-11.2" x2="-8.5" y2="-11.2" width="0.127" layer="21"/>
+<smd name="16" x="-8.4" y="7.25" dx="1.8" dy="0.8" layer="1"/>
+<smd name="17" x="-8.4" y="6.15" dx="1.8" dy="0.8" layer="1"/>
+<smd name="18" x="-8.4" y="5.05" dx="1.8" dy="0.8" layer="1"/>
+<smd name="19" x="-8.4" y="3.95" dx="1.8" dy="0.8" layer="1"/>
+<smd name="20" x="-8.4" y="2.85" dx="1.8" dy="0.8" layer="1"/>
+<smd name="21" x="-8.4" y="-0.95" dx="1.8" dy="0.8" layer="1"/>
+<smd name="22" x="-8.4" y="-2.05" dx="1.8" dy="0.8" layer="1"/>
+<smd name="23" x="-8.4" y="-3.15" dx="1.8" dy="0.8" layer="1"/>
+<smd name="24" x="-8.4" y="-4.25" dx="1.8" dy="0.8" layer="1"/>
+<smd name="25" x="-8.4" y="-5.35" dx="1.8" dy="0.8" layer="1"/>
+<smd name="26" x="-8.4" y="-6.45" dx="1.8" dy="0.8" layer="1"/>
+<smd name="27" x="-8.4" y="-7.55" dx="1.8" dy="0.8" layer="1"/>
+<smd name="28" x="-8.4" y="-8.65" dx="1.8" dy="0.8" layer="1"/>
+<smd name="14" x="8.4" y="8.35" dx="1.8" dy="0.8" layer="1"/>
+<smd name="13" x="8.4" y="7.25" dx="1.8" dy="0.8" layer="1"/>
+<smd name="12" x="8.4" y="6.15" dx="1.8" dy="0.8" layer="1"/>
+<smd name="11" x="8.4" y="5.05" dx="1.8" dy="0.8" layer="1"/>
+<smd name="10" x="8.4" y="3.95" dx="1.8" dy="0.8" layer="1"/>
+<smd name="9" x="8.4" y="2.85" dx="1.8" dy="0.8" layer="1"/>
+<smd name="8" x="8.4" y="-0.95" dx="1.8" dy="0.8" layer="1"/>
+<smd name="7" x="8.4" y="-2.05" dx="1.8" dy="0.8" layer="1"/>
+<smd name="6" x="8.4" y="-3.15" dx="1.8" dy="0.8" layer="1"/>
+<smd name="5" x="8.4" y="-4.25" dx="1.8" dy="0.8" layer="1"/>
+<smd name="4" x="8.4" y="-5.35" dx="1.8" dy="0.8" layer="1"/>
+<smd name="3" x="8.4" y="-6.45" dx="1.8" dy="0.8" layer="1"/>
+<smd name="2" x="8.4" y="-7.55" dx="1.8" dy="0.8" layer="1"/>
+<smd name="1" x="8.4" y="-8.65" dx="1.8" dy="0.8" layer="1"/>
+<circle x="5.3975" y="-8.5725" radius="0.898025" width="0" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="NTX2">
@@ -3161,6 +3202,40 @@ http://217.34.103.131/pdfs/PSA4-5043+.pdf</description>
 <pin name="VOUT" x="12.7" y="5.08" length="short" direction="in" rot="R180"/>
 <pin name="CA2" x="-10.16" y="-7.62" length="short" direction="in"/>
 <pin name="GND@*" x="-10.16" y="-10.16" length="short" direction="pwr"/>
+</symbol>
+<symbol name="UBLOX_LEA-6">
+<wire x1="-30.48" y1="22.86" x2="30.48" y2="22.86" width="0.254" layer="94"/>
+<wire x1="30.48" y1="22.86" x2="30.48" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="30.48" y1="-25.4" x2="-30.48" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="-30.48" y1="-25.4" x2="-30.48" y2="22.86" width="0.254" layer="94"/>
+<pin name="15_GND" x="-35.56" y="17.78" visible="pin" length="middle"/>
+<pin name="16_RF_IN" x="-35.56" y="15.24" length="middle"/>
+<pin name="17_GND" x="-35.56" y="12.7" length="middle"/>
+<pin name="18_VCC_RF" x="-35.56" y="10.16" length="middle"/>
+<pin name="19_V_ANT" x="-35.56" y="7.62" length="middle"/>
+<pin name="20_AADET" x="-35.56" y="5.08" length="middle"/>
+<pin name="28_TIMEPULSE" x="-35.56" y="-20.32" length="middle"/>
+<pin name="27_EXTINT0/SPEED" x="-35.56" y="-17.78" length="middle"/>
+<pin name="26_USB_DP" x="-35.56" y="-15.24" length="middle"/>
+<pin name="25_USB_DM" x="-35.56" y="-12.7" length="middle"/>
+<pin name="24_VDDUSB" x="-35.56" y="-10.16" length="middle"/>
+<pin name="23_SPI_SCK/RSVD" x="-35.56" y="-7.62" length="middle"/>
+<pin name="22_SPI_SCS1/RSVD" x="-35.56" y="-5.08" length="middle"/>
+<pin name="21_FWD/RSVD" x="-35.56" y="-2.54" length="middle"/>
+<pin name="14_GND" x="35.56" y="17.78" length="middle" rot="R180"/>
+<pin name="13_GND" x="35.56" y="15.24" length="middle" rot="R180"/>
+<pin name="12_RSVD" x="35.56" y="12.7" length="middle" rot="R180"/>
+<pin name="11_V_BCKUP" x="35.56" y="10.16" length="middle" rot="R180"/>
+<pin name="10_RESET" x="35.56" y="7.62" length="middle" rot="R180"/>
+<pin name="9_CFG_COM1/TIMEPULSE2" x="35.56" y="5.08" length="middle" rot="R180"/>
+<pin name="1_SDA2/SPI_MOSI" x="35.56" y="-20.32" length="middle" rot="R180"/>
+<pin name="2_SCL2/SPI_MISO" x="35.56" y="-17.78" length="middle" rot="R180"/>
+<pin name="3_TXD1" x="35.56" y="-15.24" length="middle" rot="R180"/>
+<pin name="4_RXD1" x="35.56" y="-12.7" length="middle" rot="R180"/>
+<pin name="5_NC" x="35.56" y="-10.16" length="middle" rot="R180"/>
+<pin name="6_VCC" x="35.56" y="-7.62" length="middle" rot="R180"/>
+<pin name="7_GND" x="35.56" y="-5.08" length="middle" rot="R180"/>
+<pin name="8_VCC_OUT" x="35.56" y="-2.54" length="middle" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -4730,6 +4805,48 @@ Farnell 1812484</description>
 <connect gate="G$1" pin="VCC" pad="9"/>
 <connect gate="G$1" pin="VOUT" pad="7"/>
 <connect gate="G$1" pin="VREF" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="UBLOX_LEA-6">
+<gates>
+<gate name="G$1" symbol="UBLOX_LEA-6" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="UBLOX_LEA-6T">
+<connects>
+<connect gate="G$1" pin="10_RESET" pad="10"/>
+<connect gate="G$1" pin="11_V_BCKUP" pad="11"/>
+<connect gate="G$1" pin="12_RSVD" pad="12"/>
+<connect gate="G$1" pin="13_GND" pad="13"/>
+<connect gate="G$1" pin="14_GND" pad="14"/>
+<connect gate="G$1" pin="15_GND" pad="15"/>
+<connect gate="G$1" pin="16_RF_IN" pad="16"/>
+<connect gate="G$1" pin="17_GND" pad="17"/>
+<connect gate="G$1" pin="18_VCC_RF" pad="18"/>
+<connect gate="G$1" pin="19_V_ANT" pad="19"/>
+<connect gate="G$1" pin="1_SDA2/SPI_MOSI" pad="1"/>
+<connect gate="G$1" pin="20_AADET" pad="20"/>
+<connect gate="G$1" pin="21_FWD/RSVD" pad="21"/>
+<connect gate="G$1" pin="22_SPI_SCS1/RSVD" pad="22"/>
+<connect gate="G$1" pin="23_SPI_SCK/RSVD" pad="23"/>
+<connect gate="G$1" pin="24_VDDUSB" pad="24"/>
+<connect gate="G$1" pin="25_USB_DM" pad="25"/>
+<connect gate="G$1" pin="26_USB_DP" pad="26"/>
+<connect gate="G$1" pin="27_EXTINT0/SPEED" pad="27"/>
+<connect gate="G$1" pin="28_TIMEPULSE" pad="28"/>
+<connect gate="G$1" pin="2_SCL2/SPI_MISO" pad="2"/>
+<connect gate="G$1" pin="3_TXD1" pad="3"/>
+<connect gate="G$1" pin="4_RXD1" pad="4"/>
+<connect gate="G$1" pin="5_NC" pad="5"/>
+<connect gate="G$1" pin="6_VCC" pad="6"/>
+<connect gate="G$1" pin="7_GND" pad="7"/>
+<connect gate="G$1" pin="8_VCC_OUT" pad="8"/>
+<connect gate="G$1" pin="9_CFG_COM1/TIMEPULSE2" pad="9"/>
 </connects>
 <technologies>
 <technology name=""/>
