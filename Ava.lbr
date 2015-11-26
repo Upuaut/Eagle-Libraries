@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -141,57 +141,6 @@ Flat mounted orientation</description>
 <pad name="0V" x="-2.54" y="-10.16" drill="0.7" diameter="2.1844"/>
 <pad name="RFGND2" x="-27.94" y="-10.16" drill="0.7" diameter="2.1844"/>
 <rectangle x1="-3.81" y1="-2.54" x2="7.62" y2="5.08" layer="39"/>
-</package>
-<package name="UBLOX_EVA-7M">
-<wire x1="-3.5" y1="3.5" x2="3.5" y2="3.5" width="0.127" layer="21"/>
-<wire x1="3.5" y1="3.5" x2="3.5" y2="-3.5" width="0.127" layer="21"/>
-<wire x1="3.5" y1="-3.5" x2="-3.5" y2="-3.5" width="0.127" layer="21"/>
-<wire x1="-3.5" y1="-3.5" x2="-3.5" y2="3.5" width="0.127" layer="21"/>
-<smd name="1" x="-3.15" y="2.6" dx="0.4" dy="0.3" layer="1"/>
-<smd name="2" x="-3.15" y="1.95" dx="0.4" dy="0.3" layer="1"/>
-<smd name="3" x="-3.15" y="1.3" dx="0.4" dy="0.3" layer="1"/>
-<smd name="4" x="-3.15" y="0.65" dx="0.4" dy="0.3" layer="1"/>
-<smd name="5" x="-3.15" y="0" dx="0.4" dy="0.3" layer="1"/>
-<smd name="6" x="-3.15" y="-0.65" dx="0.4" dy="0.3" layer="1"/>
-<smd name="7" x="-3.15" y="-1.3" dx="0.4" dy="0.3" layer="1"/>
-<smd name="8" x="-3.15" y="-1.95" dx="0.4" dy="0.3" layer="1"/>
-<smd name="9" x="-3.15" y="-2.6" dx="0.4" dy="0.3" layer="1"/>
-<smd name="10" x="-2.6" y="-3.15" dx="0.4" dy="0.3" layer="1" rot="R90"/>
-<smd name="11" x="-1.95" y="-3.15" dx="0.4" dy="0.3" layer="1" rot="R90"/>
-<smd name="12" x="-1.3" y="-3.15" dx="0.4" dy="0.3" layer="1" rot="R90"/>
-<smd name="13" x="-0.65" y="-3.15" dx="0.4" dy="0.3" layer="1" rot="R90"/>
-<smd name="14" x="0" y="-3.15" dx="0.4" dy="0.3" layer="1" rot="R90"/>
-<smd name="15" x="0.65" y="-3.15" dx="0.4" dy="0.3" layer="1" rot="R90"/>
-<smd name="16" x="1.3" y="-3.15" dx="0.4" dy="0.3" layer="1" rot="R90"/>
-<smd name="17" x="1.95" y="-3.15" dx="0.4" dy="0.3" layer="1" rot="R90"/>
-<smd name="18" x="2.6" y="-3.15" dx="0.4" dy="0.3" layer="1" rot="R90"/>
-<smd name="19" x="3.15" y="-2.6" dx="0.4" dy="0.3" layer="1"/>
-<smd name="20" x="3.15" y="-1.95" dx="0.4" dy="0.3" layer="1"/>
-<smd name="21" x="3.15" y="-1.3" dx="0.4" dy="0.3" layer="1"/>
-<smd name="22" x="3.15" y="-0.65" dx="0.4" dy="0.3" layer="1"/>
-<smd name="23" x="3.15" y="0" dx="0.4" dy="0.3" layer="1"/>
-<smd name="24" x="3.15" y="0.65" dx="0.4" dy="0.3" layer="1"/>
-<smd name="25" x="3.15" y="1.3" dx="0.4" dy="0.3" layer="1"/>
-<smd name="26" x="3.15" y="1.95" dx="0.4" dy="0.3" layer="1"/>
-<smd name="27" x="3.15" y="2.6" dx="0.4" dy="0.3" layer="1"/>
-<smd name="28" x="2.6" y="3.15" dx="0.4" dy="0.3" layer="1" rot="R90"/>
-<smd name="29" x="1.95" y="3.15" dx="0.4" dy="0.3" layer="1" rot="R90"/>
-<smd name="30" x="1.3" y="3.15" dx="0.4" dy="0.3" layer="1" rot="R90"/>
-<smd name="31" x="0.65" y="3.15" dx="0.4" dy="0.3" layer="1" rot="R90"/>
-<smd name="32" x="0" y="3.15" dx="0.4" dy="0.3" layer="1" rot="R90"/>
-<smd name="33" x="-0.65" y="3.15" dx="0.4" dy="0.3" layer="1" rot="R90"/>
-<smd name="34" x="-1.3" y="3.15" dx="0.4" dy="0.3" layer="1" rot="R90"/>
-<smd name="35" x="-1.95" y="3.15" dx="0.4" dy="0.3" layer="1" rot="R90"/>
-<smd name="36" x="-2.6" y="3.15" dx="0.4" dy="0.3" layer="1" rot="R90"/>
-<smd name="GND_5" x="1.3" y="-1.3" dx="0.5" dy="0.5" layer="1"/>
-<smd name="GND_4" x="0" y="-1.3" dx="0.5" dy="0.5" layer="1"/>
-<smd name="GND_3" x="-1.3" y="-1.3" dx="0.5" dy="0.5" layer="1"/>
-<smd name="GND_6" x="0" y="0" dx="0.5" dy="0.5" layer="1"/>
-<smd name="GND_2" x="-1.3" y="0" dx="0.5" dy="0.5" layer="1"/>
-<smd name="GND_7" x="0" y="1.3" dx="0.5" dy="0.5" layer="1"/>
-<smd name="GND_1" x="-1.3" y="1.3" dx="0.5" dy="0.5" layer="1"/>
-<text x="-2.4" y="2.1" size="0.5" layer="25">&gt;NAME</text>
-<text x="-2.4" y="-2.4" size="0.5" layer="27">&gt;VALUE</text>
 </package>
 <package name="UBLOX_NEO-6P">
 <description>NEO-6 Series - u-blox 6 NEO Series GALILEO-Ready GPS Modules
@@ -5018,6 +4967,109 @@ Coin cell battery holder (SMD, 22mm)</description>
 <wire x1="0" y1="4.8" x2="0" y2="-4.8" width="0.127" layer="51"/>
 <wire x1="-14" y1="4.8" x2="-14" y2="-4.8" width="0.127" layer="51"/>
 </package>
+<package name="MOLEX-502774-0891-MICROSD">
+<wire x1="-7.49" y1="-7.765" x2="6.54" y2="-7.765" width="0.127" layer="21"/>
+<wire x1="6.54" y1="-7.765" x2="6.54" y2="7.4" width="0.127" layer="21"/>
+<wire x1="6.54" y1="7.4" x2="-7.49" y2="7.4" width="0.127" layer="21"/>
+<wire x1="-7.49" y1="7.4" x2="-7.49" y2="-7.765" width="0.127" layer="21"/>
+<wire x1="-4.06" y1="-8.4" x2="-4.06" y2="-8.5" width="0.127" layer="51" style="shortdash"/>
+<wire x1="-4.06" y1="-8.5" x2="-3.06" y2="-9.5" width="0.127" layer="51" style="shortdash" curve="90"/>
+<wire x1="-3.06" y1="-9.5" x2="3.74" y2="-9.5" width="0.127" layer="51" style="shortdash"/>
+<wire x1="3.74" y1="-9.5" x2="4.74" y2="-8.5" width="0.127" layer="51" style="shortdash" curve="90"/>
+<wire x1="4.74" y1="-8.5" x2="4.74" y2="-8.4" width="0.127" layer="51" style="shortdash"/>
+<wire x1="-4.06" y1="-8.5" x2="-4.06" y2="-9.4" width="0.127" layer="51" style="shortdash"/>
+<wire x1="-4.06" y1="-9.4" x2="-3.06" y2="-10.4" width="0.127" layer="51" style="shortdash" curve="90"/>
+<wire x1="-3.06" y1="-10.4" x2="3.74" y2="-10.4" width="0.127" layer="51" style="shortdash"/>
+<wire x1="3.74" y1="-10.4" x2="4.74" y2="-9.4" width="0.127" layer="51" style="shortdash" curve="90"/>
+<wire x1="4.74" y1="-9.4" x2="4.74" y2="-8.5" width="0.127" layer="51" style="shortdash"/>
+<wire x1="-4.06" y1="-9.4" x2="-4.06" y2="-13" width="0.127" layer="51" style="shortdash"/>
+<wire x1="-4.06" y1="-13" x2="-3.06" y2="-14" width="0.127" layer="51" style="shortdash" curve="90"/>
+<wire x1="-3.06" y1="-14" x2="3.74" y2="-14" width="0.127" layer="51" style="shortdash"/>
+<wire x1="3.74" y1="-14" x2="4.74" y2="-13" width="0.127" layer="51" style="shortdash" curve="90"/>
+<wire x1="4.74" y1="-13" x2="4.74" y2="-9.4" width="0.127" layer="51" style="shortdash"/>
+<wire x1="-4.06" y1="-8.4" x2="-4.06" y2="-6.8" width="0.127" layer="21"/>
+<wire x1="-4.06" y1="-6.8" x2="-3.06" y2="-5.8" width="0.127" layer="21" curve="-90"/>
+<wire x1="-3.06" y1="-5.8" x2="3.74" y2="-5.8" width="0.127" layer="21"/>
+<wire x1="3.74" y1="-5.8" x2="4.74" y2="-6.8" width="0.127" layer="21" curve="-90"/>
+<wire x1="4.74" y1="-6.8" x2="4.74" y2="-8.4" width="0.127" layer="21"/>
+<smd name="1" x="-3.3" y="8.2" dx="0.8" dy="1.5" layer="1" rot="R180"/>
+<smd name="2" x="-2.2" y="8.2" dx="0.8" dy="1.5" layer="1"/>
+<smd name="3" x="-1.1" y="8.2" dx="0.8" dy="1.5" layer="1"/>
+<smd name="4" x="0" y="8.2" dx="0.8" dy="1.5" layer="1"/>
+<smd name="5" x="1.1" y="8.2" dx="0.8" dy="1.5" layer="1"/>
+<smd name="6" x="2.2" y="8.2" dx="0.8" dy="1.5" layer="1"/>
+<smd name="7" x="3.3" y="8.2" dx="0.8" dy="1.5" layer="1"/>
+<smd name="8" x="4.4" y="8.2" dx="0.8" dy="1.5" layer="1"/>
+<smd name="9" x="6.455" y="6.55" dx="1.29" dy="1.3" layer="1"/>
+<smd name="10" x="6.54" y="-0.85" dx="1.29" dy="1.4" layer="1"/>
+<smd name="11" x="6.54" y="-6.65" dx="1.5" dy="1.7" layer="1"/>
+<smd name="12" x="-6.96" y="-6.65" dx="1.5" dy="1.7" layer="1"/>
+<smd name="14" x="-6.96" y="8.2" dx="1.7" dy="1.4" layer="1"/>
+<smd name="15" x="5.6" y="8.2" dx="1.2" dy="1.6" layer="1"/>
+<text x="-9.77" y="9.6" size="1.27" layer="25">&gt;NAME</text>
+</package>
+<package name="RASPBERRY-PI-ZERO">
+<pad name="4" x="-21.43" y="25.77" drill="0.97" diameter="1.8796" rot="R90"/>
+<pad name="6" x="-18.89" y="25.77" drill="0.97" diameter="1.8796" rot="R90"/>
+<pad name="8" x="-16.35" y="25.77" drill="0.97" diameter="1.8796" rot="R90"/>
+<pad name="10" x="-13.81" y="25.77" drill="0.97" diameter="1.8796" rot="R90"/>
+<pad name="12" x="-11.27" y="25.77" drill="0.97" diameter="1.8796" rot="R90"/>
+<pad name="14" x="-8.73" y="25.77" drill="0.97" diameter="1.8796" rot="R90"/>
+<pad name="16" x="-6.19" y="25.77" drill="0.97" diameter="1.8796" rot="R90"/>
+<pad name="18" x="-3.65" y="25.77" drill="0.97" diameter="1.8796" rot="R90"/>
+<pad name="20" x="-1.11" y="25.77" drill="0.97" diameter="1.8796" rot="R90"/>
+<pad name="22" x="1.43" y="25.77" drill="0.97" diameter="1.8796" rot="R90"/>
+<pad name="24" x="3.97" y="25.77" drill="0.97" diameter="1.8796" rot="R90"/>
+<pad name="26" x="6.51" y="25.77" drill="0.97" diameter="1.8796" rot="R90"/>
+<pad name="28" x="9.05" y="25.77" drill="0.97" diameter="1.8796" rot="R90"/>
+<pad name="30" x="11.59" y="25.77" drill="0.97" diameter="1.8796" rot="R90"/>
+<pad name="32" x="14.14" y="25.77" drill="0.97" diameter="1.8796" rot="R90"/>
+<pad name="34" x="16.67" y="25.77" drill="0.97" diameter="1.8796" rot="R90"/>
+<pad name="36" x="19.21" y="25.77" drill="0.97" diameter="1.8796" rot="R90"/>
+<pad name="38" x="21.75" y="25.77" drill="0.97" diameter="1.8796" rot="R90"/>
+<pad name="40" x="24.29" y="25.77" drill="0.97" diameter="1.8796" rot="R90"/>
+<pad name="3" x="-21.43" y="23.23" drill="0.97" diameter="1.8796" rot="R90"/>
+<pad name="5" x="-18.89" y="23.23" drill="0.97" diameter="1.8796" rot="R90"/>
+<pad name="7" x="-16.35" y="23.23" drill="0.97" diameter="1.8796" rot="R90"/>
+<pad name="9" x="-13.81" y="23.23" drill="0.97" diameter="1.8796" rot="R90"/>
+<pad name="11" x="-11.27" y="23.23" drill="0.97" diameter="1.8796" rot="R90"/>
+<pad name="13" x="-8.73" y="23.23" drill="0.97" diameter="1.8796" rot="R90"/>
+<pad name="15" x="-6.19" y="23.23" drill="0.97" diameter="1.8796" rot="R90"/>
+<pad name="17" x="-3.65" y="23.23" drill="0.97" diameter="1.8796" rot="R90"/>
+<pad name="19" x="-1.11" y="23.23" drill="0.97" diameter="1.8796" rot="R90"/>
+<pad name="21" x="1.43" y="23.23" drill="0.97" diameter="1.8796" rot="R90"/>
+<pad name="23" x="3.97" y="23.23" drill="0.97" diameter="1.8796" rot="R90"/>
+<pad name="25" x="6.51" y="23.23" drill="0.97" diameter="1.8796" rot="R90"/>
+<pad name="27" x="9.05" y="23.23" drill="0.97" diameter="1.8796" rot="R90"/>
+<pad name="29" x="11.59" y="23.23" drill="0.97" diameter="1.8796" rot="R90"/>
+<pad name="31" x="14.13" y="23.23" drill="0.97" diameter="1.8796" rot="R90"/>
+<pad name="33" x="16.67" y="23.23" drill="0.97" diameter="1.8796" rot="R90"/>
+<pad name="35" x="19.21" y="23.23" drill="0.97" diameter="1.8796" rot="R90"/>
+<pad name="37" x="21.75" y="23.23" drill="0.97" diameter="1.8796" rot="R90"/>
+<pad name="39" x="24.29" y="23.23" drill="0.97" diameter="1.8796" rot="R90"/>
+<pad name="2" x="-23.97" y="25.77" drill="0.97" diameter="1.8796" rot="R90"/>
+<pad name="1" x="-23.97" y="23.23" drill="0.97" diameter="1.8796" rot="R90"/>
+<wire x1="-29.34" y1="28" x2="29.66" y2="28" width="0" layer="20"/>
+<wire x1="29.66" y1="28" x2="32.66" y2="25" width="0" layer="20" curve="-90"/>
+<wire x1="32.66" y1="25" x2="32.66" y2="1" width="0" layer="20"/>
+<wire x1="32.66" y1="1" x2="29.66" y2="-2" width="0" layer="20" curve="-90"/>
+<wire x1="29.66" y1="-2" x2="-29.34" y2="-2" width="0" layer="20"/>
+<wire x1="-29.34" y1="-2" x2="-32.34" y2="1" width="0" layer="20" curve="-90"/>
+<wire x1="-32.34" y1="1" x2="-32.34" y2="25" width="0" layer="20"/>
+<wire x1="-32.34" y1="25" x2="-29.34" y2="28" width="0" layer="20" curve="-90"/>
+<hole x="-28.84" y="24.5" drill="2.75"/>
+<circle x="-28.84" y="24.5" radius="3.1" width="0" layer="29"/>
+<circle x="-28.84" y="24.5" radius="3.1" width="0" layer="30"/>
+<hole x="29.16" y="24.5" drill="2.75"/>
+<circle x="29.16" y="24.5" radius="3.1" width="0" layer="29"/>
+<circle x="29.16" y="24.5" radius="3.1" width="0" layer="30"/>
+<hole x="-28.84" y="1.5" drill="2.75"/>
+<circle x="-28.84" y="1.5" radius="3.1" width="0" layer="29"/>
+<circle x="-28.84" y="1.5" radius="3.1" width="0" layer="30"/>
+<hole x="29.16" y="1.5" drill="2.75"/>
+<circle x="29.16" y="1.5" radius="3.1" width="0" layer="29"/>
+<circle x="29.16" y="1.5" radius="3.1" width="0" layer="30"/>
+</package>
 </packages>
 <symbols>
 <symbol name="LTC3112">
@@ -5054,55 +5106,6 @@ Coin cell battery holder (SMD, 22mm)</description>
 <pin name="0V" x="7.62" y="-2.54" length="middle" rot="R90"/>
 <pin name="TXD" x="12.7" y="-2.54" length="middle" rot="R90"/>
 <pin name="RFGND2" x="-30.48" y="-2.54" length="middle" rot="R90"/>
-</symbol>
-<symbol name="UBLOX_EVA-7M">
-<wire x1="-17.78" y1="38.1" x2="17.78" y2="38.1" width="0.254" layer="94"/>
-<wire x1="17.78" y1="38.1" x2="17.78" y2="-35.56" width="0.254" layer="94"/>
-<wire x1="17.78" y1="-35.56" x2="-17.78" y2="-35.56" width="0.254" layer="94"/>
-<wire x1="-17.78" y1="-35.56" x2="-17.78" y2="38.1" width="0.254" layer="94"/>
-<pin name="ANT_DET" x="-22.86" y="-27.94" length="middle"/>
-<pin name="ANT_OFF" x="-22.86" y="-33.02" length="middle"/>
-<pin name="ANT_OK" x="-22.86" y="-30.48" length="middle"/>
-<pin name="D_SEL" x="-22.86" y="-22.86" length="middle"/>
-<pin name="EXTINT" x="-22.86" y="-2.54" length="middle"/>
-<pin name="GND" x="22.86" y="-33.02" length="middle" rot="R180"/>
-<pin name="GND_PAD1" x="22.86" y="-12.7" length="middle" rot="R180"/>
-<pin name="GND_PAD2" x="22.86" y="-15.24" length="middle" rot="R180"/>
-<pin name="GND_PAD3" x="22.86" y="-17.78" length="middle" rot="R180"/>
-<pin name="GND_PAD4" x="22.86" y="-20.32" length="middle" rot="R180"/>
-<pin name="GND_PAD5" x="22.86" y="-22.86" length="middle" rot="R180"/>
-<pin name="GND_PAD6" x="22.86" y="-25.4" length="middle" rot="R180"/>
-<pin name="GND_PAD7" x="22.86" y="-27.94" length="middle" rot="R180"/>
-<pin name="RESERVED3" x="22.86" y="25.4" length="middle" rot="R180"/>
-<pin name="RESERVED4" x="22.86" y="22.86" length="middle" rot="R180"/>
-<pin name="RESERVED10" x="22.86" y="20.32" length="middle" rot="R180"/>
-<pin name="RESERVED11" x="22.86" y="17.78" length="middle" rot="R180"/>
-<pin name="RESERVED17" x="22.86" y="15.24" length="middle" rot="R180"/>
-<pin name="RESERVED22" x="22.86" y="12.7" length="middle" rot="R180"/>
-<pin name="RESERVED23" x="22.86" y="10.16" length="middle" rot="R180"/>
-<pin name="RESERVED24" x="22.86" y="7.62" length="middle" rot="R180"/>
-<pin name="RESERVED25" x="22.86" y="5.08" length="middle" rot="R180"/>
-<pin name="RESERVED26" x="22.86" y="2.54" length="middle" rot="R180"/>
-<pin name="RESERVED27" x="22.86" y="0" length="middle" rot="R180"/>
-<pin name="RESERVED28" x="22.86" y="-2.54" length="middle" rot="R180"/>
-<pin name="RESERVED33" x="22.86" y="-5.08" length="middle" rot="R180"/>
-<pin name="RESERVED36" x="22.86" y="-7.62" length="middle" rot="R180"/>
-<pin name="RESET" x="-22.86" y="-5.08" length="middle"/>
-<pin name="RF_GND" x="-22.86" y="33.02" length="middle"/>
-<pin name="RF_IN" x="-22.86" y="35.56" length="middle"/>
-<pin name="RTC_I" x="-22.86" y="2.54" length="middle"/>
-<pin name="RTC_O" x="-22.86" y="5.08" length="middle"/>
-<pin name="RX_MOSI" x="-22.86" y="-7.62" length="middle"/>
-<pin name="SCL_SCK" x="-22.86" y="-12.7" length="middle"/>
-<pin name="SDA_CS" x="-22.86" y="-15.24" length="middle"/>
-<pin name="TIMEPULSE" x="-22.86" y="-20.32" length="middle"/>
-<pin name="TX_MISO" x="-22.86" y="-10.16" length="middle"/>
-<pin name="USB_DM" x="-22.86" y="15.24" length="middle"/>
-<pin name="USB_DP" x="-22.86" y="12.7" length="middle"/>
-<pin name="VCC" x="22.86" y="35.56" length="middle" rot="R180"/>
-<pin name="VCC_BCKP" x="22.86" y="30.48" length="middle" rot="R180"/>
-<pin name="VCC_IO" x="22.86" y="33.02" length="middle" rot="R180"/>
-<pin name="V_USB" x="-22.86" y="10.16" length="middle"/>
 </symbol>
 <symbol name="UBLOX_NEO-6">
 <wire x1="-25.4" y1="10.16" x2="-25.4" y2="-50.8" width="0.254" layer="95"/>
@@ -7117,6 +7120,28 @@ http://cds.linear.com/docs/en/datasheet/3526bfd.pdf</description>
 <wire x1="17.78" y1="-22.86" x2="17.78" y2="22.86" width="0.254" layer="94"/>
 <wire x1="17.78" y1="22.86" x2="-17.78" y2="22.86" width="0.254" layer="94"/>
 </symbol>
+<symbol name="MOLEX-502774-0891-MICROSD">
+<wire x1="7.62" y1="15.24" x2="7.62" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-15.24" x2="-12.7" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-15.24" x2="-12.7" y2="15.24" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="15.24" x2="7.62" y2="15.24" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="15.24" x2="-7.62" y2="10.16" width="0.254" layer="94" curve="-90"/>
+<wire x1="-7.62" y1="10.16" x2="-7.62" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-10.16" x2="-12.7" y2="-15.24" width="0.254" layer="94" curve="-90"/>
+<text x="-12.7" y="20.32" size="1.778" layer="95">&gt;NAME</text>
+<text x="-12.7" y="17.78" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-5.08" y="7.62" size="1.778" layer="94" rot="R270">microSD CARD</text>
+<pin name="NC" x="12.7" y="12.7" length="middle" rot="R180"/>
+<pin name="/CS" x="12.7" y="10.16" length="middle" rot="R180"/>
+<pin name="DI" x="12.7" y="7.62" length="middle" rot="R180"/>
+<pin name="VDD" x="12.7" y="5.08" length="middle" rot="R180"/>
+<pin name="CLK" x="12.7" y="2.54" length="middle" rot="R180"/>
+<pin name="VSS" x="12.7" y="0" length="middle" rot="R180"/>
+<pin name="DO" x="12.7" y="-2.54" length="middle" rot="R180"/>
+<pin name="RSV" x="12.7" y="-5.08" length="middle" rot="R180"/>
+<pin name="CD(1)" x="12.7" y="-10.16" length="middle" rot="R180"/>
+<pin name="CD(2)" x="12.7" y="-12.7" length="middle" rot="R180"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="NTX2">
@@ -7167,65 +7192,6 @@ Author Anthony Stirk / http://ava.upuaut.net</description>
 </device>
 </devices>
 </deviceset>
-
-<deviceset name="UBLOX_EVA-7M">
-<gates>
-<gate name="G$1" symbol="UBLOX_EVA-7M" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="UBLOX_EVA-7M">
-<connects>
-<connect gate="G$1" pin="ANT_DET" pad="12"/>
-<connect gate="G$1" pin="ANT_OFF" pad="35"/>
-<connect gate="G$1" pin="ANT_OK" pad="34"/>
-<connect gate="G$1" pin="D_SEL" pad="32"/>
-<connect gate="G$1" pin="EXTINT" pad="13"/>
-<connect gate="G$1" pin="GND" pad="18"/>
-<connect gate="G$1" pin="GND_PAD1" pad="GND_5"/>
-<connect gate="G$1" pin="GND_PAD2" pad="GND_4"/>
-<connect gate="G$1" pin="GND_PAD3" pad="GND_3"/>
-<connect gate="G$1" pin="GND_PAD4" pad="GND_6"/>
-<connect gate="G$1" pin="GND_PAD5" pad="GND_2"/>
-<connect gate="G$1" pin="GND_PAD6" pad="GND_7"/>
-<connect gate="G$1" pin="GND_PAD7" pad="GND_1"/>
-<connect gate="G$1" pin="RESERVED10" pad="10"/>
-<connect gate="G$1" pin="RESERVED11" pad="11"/>
-<connect gate="G$1" pin="RESERVED17" pad="17"/>
-<connect gate="G$1" pin="RESERVED22" pad="22"/>
-<connect gate="G$1" pin="RESERVED23" pad="23"/>
-<connect gate="G$1" pin="RESERVED24" pad="24"/>
-<connect gate="G$1" pin="RESERVED25" pad="25"/>
-<connect gate="G$1" pin="RESERVED26" pad="26"/>
-<connect gate="G$1" pin="RESERVED27" pad="27"/>
-<connect gate="G$1" pin="RESERVED28" pad="28"/>
-<connect gate="G$1" pin="RESERVED3" pad="3"/>
-<connect gate="G$1" pin="RESERVED33" pad="33"/>
-<connect gate="G$1" pin="RESERVED36" pad="36"/>
-<connect gate="G$1" pin="RESERVED4" pad="4"/>
-<connect gate="G$1" pin="RESET" pad="14"/>
-<connect gate="G$1" pin="RF_GND" pad="2"/>
-<connect gate="G$1" pin="RF_IN" pad="1"/>
-<connect gate="G$1" pin="RTC_I" pad="9"/>
-<connect gate="G$1" pin="RTC_O" pad="8"/>
-<connect gate="G$1" pin="RX_MOSI" pad="15"/>
-<connect gate="G$1" pin="SCL_SCK" pad="29"/>
-<connect gate="G$1" pin="SDA_CS" pad="30"/>
-<connect gate="G$1" pin="TIMEPULSE" pad="31"/>
-<connect gate="G$1" pin="TX_MISO" pad="16"/>
-<connect gate="G$1" pin="USB_DM" pad="5"/>
-<connect gate="G$1" pin="USB_DP" pad="6"/>
-<connect gate="G$1" pin="VCC" pad="19"/>
-<connect gate="G$1" pin="VCC_BCKP" pad="21"/>
-<connect gate="G$1" pin="VCC_IO" pad="20"/>
-<connect gate="G$1" pin="V_USB" pad="7"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-
 <deviceset name="UBLOX_NEO-6">
 <description>UBLOX NEO-6 GPS MODULE
 
@@ -9794,6 +9760,53 @@ Anthony Stirk March 2014</description>
 <technology name=""/>
 </technologies>
 </device>
+<device name="PIZERO" package="RASPBERRY-PI-ZERO">
+<connects>
+<connect gate="G$1" pin="1-3V3" pad="1"/>
+<connect gate="G$1" pin="10-RX" pad="10"/>
+<connect gate="G$1" pin="11-GPIO17" pad="11"/>
+<connect gate="G$1" pin="12-GPIO18" pad="12"/>
+<connect gate="G$1" pin="13-GPIO27" pad="13"/>
+<connect gate="G$1" pin="14-GND" pad="14"/>
+<connect gate="G$1" pin="15-GPIO22" pad="15"/>
+<connect gate="G$1" pin="16-GPIO23" pad="16"/>
+<connect gate="G$1" pin="17-3V3" pad="17"/>
+<connect gate="G$1" pin="18-GPIO24" pad="18"/>
+<connect gate="G$1" pin="19-SPI-MOSI/GPIO10" pad="19"/>
+<connect gate="G$1" pin="2-5V" pad="2"/>
+<connect gate="G$1" pin="20-GND" pad="20"/>
+<connect gate="G$1" pin="21-SPI-MISO/GPIO9" pad="21"/>
+<connect gate="G$1" pin="22-GPIO25" pad="22"/>
+<connect gate="G$1" pin="23-SPI-SCLK/GPIO11" pad="23"/>
+<connect gate="G$1" pin="24-GPIO8" pad="24"/>
+<connect gate="G$1" pin="25-GND" pad="25"/>
+<connect gate="G$1" pin="26-GPIO7" pad="26"/>
+<connect gate="G$1" pin="27-ID_SD" pad="27"/>
+<connect gate="G$1" pin="28-ID_SC" pad="28"/>
+<connect gate="G$1" pin="29-GPIO5" pad="29"/>
+<connect gate="G$1" pin="3-SDA1/GPIO2" pad="3"/>
+<connect gate="G$1" pin="30-GND" pad="30"/>
+<connect gate="G$1" pin="31-GPIO6" pad="31"/>
+<connect gate="G$1" pin="32-GPIO12" pad="32"/>
+<connect gate="G$1" pin="33-GPIO13" pad="33"/>
+<connect gate="G$1" pin="34-GND" pad="34"/>
+<connect gate="G$1" pin="35-GPIO19" pad="35"/>
+<connect gate="G$1" pin="36-GPIO16" pad="36"/>
+<connect gate="G$1" pin="37-GPIO26" pad="37"/>
+<connect gate="G$1" pin="38-GPIO20" pad="38"/>
+<connect gate="G$1" pin="39-GND" pad="39"/>
+<connect gate="G$1" pin="4-5V" pad="4"/>
+<connect gate="G$1" pin="40-GPIO21" pad="40"/>
+<connect gate="G$1" pin="5-SCL1/GPIO3" pad="5"/>
+<connect gate="G$1" pin="6-GND" pad="6"/>
+<connect gate="G$1" pin="7-GPIO4" pad="7"/>
+<connect gate="G$1" pin="8-TX" pad="8"/>
+<connect gate="G$1" pin="9-GND" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="RASPBERRY-PI">
@@ -10479,6 +10492,32 @@ Anthony Stirk March 2014</description>
 </connects>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MOLEX-502774-0891-MICROSD">
+<gates>
+<gate name="G$1" symbol="MOLEX-502774-0891-MICROSD" x="2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="MOLEX-502774-0891-MICROSD">
+<connects>
+<connect gate="G$1" pin="/CS" pad="2"/>
+<connect gate="G$1" pin="CD(1)" pad="9"/>
+<connect gate="G$1" pin="CD(2)" pad="10"/>
+<connect gate="G$1" pin="CLK" pad="5"/>
+<connect gate="G$1" pin="DI" pad="3"/>
+<connect gate="G$1" pin="DO" pad="7"/>
+<connect gate="G$1" pin="NC" pad="1"/>
+<connect gate="G$1" pin="RSV" pad="8"/>
+<connect gate="G$1" pin="VDD" pad="4"/>
+<connect gate="G$1" pin="VSS" pad="6"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="2064063" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
